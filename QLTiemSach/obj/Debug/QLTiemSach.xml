@@ -1,0 +1,166 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+QLTiemSach
+</name>
+</assembly>
+<members>
+<member name="T:QLTiemSach.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:QLTiemSach.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:QLTiemSach.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:QLTiemSach.dsHDBan">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:QLTiemSach.dsHDBan.HDBanDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QLTiemSach.dsHDBan.HDBanRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QLTiemSach.dsHDBan.HDBanRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QLTiemSach.dsHDMuon">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:QLTiemSach.dsHDMuon.HDMuonDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QLTiemSach.dsHDMuon.HDMuonRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QLTiemSach.dsHDMuon.HDMuonRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QLTiemSach.dsKhach">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:QLTiemSach.dsKhach.KhachHangDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QLTiemSach.dsKhach.KhachHangRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QLTiemSach.dsKhach.KhachHangRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QLTiemSach.dsNhanVien">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:QLTiemSach.dsNhanVien.NhanVienDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QLTiemSach.dsNhanVien.NhanVienRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QLTiemSach.dsNhanVien.NhanVienRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QLTiemSach.dsSach">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:QLTiemSach.dsSach.SachDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QLTiemSach.dsSach.SachRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QLTiemSach.dsSach.SachRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QLTiemSach.dsTaiKhoan">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:QLTiemSach.dsTaiKhoan.TaiKhoanDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QLTiemSach.dsTaiKhoan.TaiKhoanRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QLTiemSach.dsTaiKhoan.TaiKhoanRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QLTiemSach.dsTK">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:QLTiemSach.dsTK.TaiKhoanDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QLTiemSach.dsTK.TaiKhoanRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QLTiemSach.dsTK.TaiKhoanRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+</members>
+</doc>

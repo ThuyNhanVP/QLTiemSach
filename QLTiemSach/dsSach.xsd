@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsSach" targetNamespace="http://tempuri.org/dsSach.xsd" xmlns:mstns="http://tempuri.org/dsSach.xsd" xmlns="http://tempuri.org/dsSach.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsSach" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsSach" msprop:Generator_DataSetName="dsSach">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Sach" msprop:Generator_RowEvHandlerName="SachRowChangeEventHandler" msprop:Generator_RowDeletedName="SachRowDeleted" msprop:Generator_RowDeletingName="SachRowDeleting" msprop:Generator_RowEvArgName="SachRowChangeEvent" msprop:Generator_TablePropName="Sach" msprop:Generator_RowChangedName="SachRowChanged" msprop:Generator_RowChangingName="SachRowChanging" msprop:Generator_TableClassName="SachDataTable" msprop:Generator_RowClassName="SachRow" msprop:Generator_TableVarName="tableSach" msprop:Generator_UserTableName="Sach">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MaSach" msprop:Generator_ColumnPropNameInRow="MaSach" msprop:Generator_ColumnPropNameInTable="MaSachColumn" msprop:Generator_ColumnVarNameInTable="columnMaSach" msprop:Generator_UserColumnName="MaSach" type="xs:int" />
+              <xs:element name="TenSach" msprop:Generator_ColumnPropNameInRow="TenSach" msprop:Generator_ColumnPropNameInTable="TenSachColumn" msprop:Generator_ColumnVarNameInTable="columnTenSach" msprop:Generator_UserColumnName="TenSach">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TacGia" msprop:Generator_ColumnPropNameInRow="TacGia" msprop:Generator_ColumnPropNameInTable="TacGiaColumn" msprop:Generator_ColumnVarNameInTable="columnTacGia" msprop:Generator_UserColumnName="TacGia">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NhaXB" msprop:Generator_ColumnPropNameInRow="NhaXB" msprop:Generator_ColumnPropNameInTable="NhaXBColumn" msprop:Generator_ColumnVarNameInTable="columnNhaXB" msprop:Generator_UserColumnName="NhaXB">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ChuDe" msprop:Generator_ColumnPropNameInRow="ChuDe" msprop:Generator_ColumnPropNameInTable="ChuDeColumn" msprop:Generator_ColumnVarNameInTable="columnChuDe" msprop:Generator_UserColumnName="ChuDe">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DonGia" msprop:Generator_ColumnPropNameInRow="DonGia" msprop:Generator_ColumnPropNameInTable="DonGiaColumn" msprop:Generator_ColumnVarNameInTable="columnDonGia" msprop:Generator_UserColumnName="DonGia" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TrongKho" msprop:Generator_ColumnPropNameInRow="TrongKho" msprop:Generator_ColumnPropNameInTable="TrongKhoColumn" msprop:Generator_ColumnVarNameInTable="columnTrongKho" msprop:Generator_UserColumnName="TrongKho" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Sach" />
+      <xs:field xpath="mstns:MaSach" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
